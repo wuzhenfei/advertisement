@@ -1,18 +1,13 @@
 .item{
 	position: relative;
-	display: flex;
-	height: 100%;
-	width: 100%;
 }
 .item .btns{
-	position: absolute;
-	padding:0 20px 20px;
-	bottom:0;
+	padding:0 20px;
+	bottom:20px;
 	left:0;
-	height: 215px;
 	width: 100%;
 }
-.item .btns a.btn{
+.btns a.btn{
 	color: #fff;
 	margin: 10px 0;
 	border-radius: 0;
@@ -20,12 +15,20 @@
 	font-size: 18px;
 	line-height: 1.3333333;
 }
+.btns a.btn span{
+	display: block;
+	text-align: right;
+	font-size: 14px;
+	position: absolute;
+	bottom:10px;
+	right:10px;
+}
 .select-img img{
 	width: 100%;
+	display: block;
 }
 .btn-transparent{
-	font-family: Gotham Medium,"M Hei PRC W45","M Hei HK W42","M Hei HK W40","HelveticaNeue-Regular","Helvetica Neue Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
-	background-color: rgba(255,255,255,0.15);
+	background-color: rgba(0,0,0,0.4);
 	border:1px solid transparent;
 	transform: translateZ(0);
 	text-transform: uppercase;
@@ -39,4 +42,47 @@
 }
 .text-content{
 	font-size: 18px;
+}
+.text-content p{
+	margin:20px 0;
+	color: #706e6e;
+}
+.text-content .btn-transparent{
+	background: #3e3e3e;
+}
+.icon-contents{
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	padding:15% 60px 30%;
+	height:100%;
+}
+.icon-contents .row{
+	height: 100%;
+	margin:0 -10px;
+}
+.icon-contents .row .col-xs-6{
+	height: 33.333333%;
+	padding:20px;
+}
+.icon-contents .icon-item{
+	width: 100%;
+	height: 100%;
+	border:1px solid #fff;
+	background: rgba(19,19,19,0.5);
+	margin-bottom: 15px;
+	display: table;
+	text-align: center;
+}
+.icon-contents .icon-item .img-box{
+	display: table-cell;
+	vertical-align: middle;
+	margin: auto;
+}
+.icon-contents .icon-item .img-box img{
+	display: inline-block;
+}
+.icon-contents+.btns a.btn{
+	padding:20px 0;
 }

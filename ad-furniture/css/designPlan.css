@@ -1,0 +1,138 @@
+/* banner滚动 */
+.scroll-banner .carousel-indicators{
+	position: initial;
+	width: 100%;
+	margin:10px auto;
+	display: flex;
+	padding:0 15px;
+}
+.scroll-banner .carousel-caption{
+	bottom:initial;
+	top:0;
+	left:0;
+	width: 100%;
+	height:60px;
+	line-height: 30px;
+	background: rgba(255,255,255,0.9);
+	padding:15px 10px;
+	color: #000;
+	text-align: left;
+	font-size: 20px;
+}
+.scroll-banner .carousel-caption a,.scroll-banner .carousel-caption a:hover,.scroll-banner .carousel-caption a:active{
+	padding:0 15px;
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+.scroll-banner .carousel-indicators li{
+	background: none;
+	width: 33.33333%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	text-indent: initial;
+	flex:1;
+	border-radius: 0;
+	cursor: pointer;
+}
+.scroll-banner .carousel-indicators li span{
+	border:1px solid #f7f7f7;
+	background: #f7f7f7;
+	display: block;
+	color: #a3a3a3;
+	font-size: 18px;
+}
+.scroll-banner .carousel-indicators li.active span{
+	border:1px solid #ababab;
+	color: #8a8a8a;
+	transition: background-color 300ms linear,border 300ms linear;
+}
+
+.main-container {
+	margin-top: 15px;
+}
+.main-container .item-con{
+	position: relative;
+	padding-left:55px;
+	margin-bottom: 15px;
+}
+.main-container .item-con .row{
+	display: flex;
+	padding:0 10px;
+}
+.main-container .item-con .col-xs-6{
+	padding:0;
+	margin:0 1%;
+	display: flex;
+	-webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border: 1px solid #dedede;
+	background: #f7f7f7;
+	width: 48%;
+}
+.main-container .item-con .col-tit{
+	position: absolute;
+	left:0;
+	top:0;
+	width: 45px;
+	height: 100%;
+	text-align: center;
+}
+.main-container .item-con .col-tit h2{
+	font-size: 18px;
+	background: #000;
+	color: #fff;
+	padding:10px;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	line-height: 2em;
+	align-items: center;
+}
+.main-container .item-header{
+	height: 60px;
+	line-height: 60px;
+	font-size: 26px;
+	text-align: center;
+}
+.designPlan-tit{
+	border:2px solid #cc3300;
+	color: #cc3300;
+	background: #fff;
+	width: 100%;
+}
+.usefull-tit{
+	border:2px solid #cc3300;
+	color: #fff;
+	background: #cc3300;
+	width: 100%;
+}
+ul.con-list{
+	line-height: 45px;
+	width: 100%;
+}
+.item-con .col-xs-6.con-list-border{
+	border-bottom:none;
+}
+ul.con-list li{
+	font-size: 16px;
+	color: #8a8a8a;
+	padding:0 15px;
+}
+.con-list-border li{
+	border-bottom: 1px solid #dedede;
+}
+
+.p-tips{
+	font-size: 28px;
+	height: 165px;
+	line-height: 165px;
+	text-align: center;
+	width: 100%;
+	background: #000;
+	color: #fff;	
+}
