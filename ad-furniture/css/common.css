@@ -47,7 +47,38 @@ footer .col-xs-4 span{
 	color: #fff;
 	padding:3px;
 }
+footer .col-xs-4 span a,footer .col-xs-4 span a:hover,footer .col-xs-4 span a:active{
+	color: #fff;
+	text-decoration: none;
+}
 footer .ft-border{
 	border-left:1px solid #fff;
 	border-right:1px solid #fff;
+}
+
+@media only screen and (max-width: 500px) {
+	.form-item{
+		padding:25px 35px;
+	}
+	.form-item h1{
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	.form-item .form-group{
+		margin-bottom: 20px;
+	}
+	.form-item .form-group label{
+		font-size: 14px;
+	}
+	.form-item .btn,.form-item .form-group .form-control{
+		height: 40px;
+		line-height: 40px;
+		font-size: 16px;
+	}
+	footer{
+		font-size: 12px;
+	}
+	footer .col-xs-4{
+		padding:0
+	}
 }

@@ -62,6 +62,9 @@
 	display: flex;
 	padding:0 10px;
 }
+.main-container .item-header.item-con .col-xs-6{
+	border:none;
+}
 .main-container .item-con .col-xs-6{
 	padding:0;
 	margin:0 1%;
@@ -135,4 +138,56 @@ ul.con-list li{
 	width: 100%;
 	background: #000;
 	color: #fff;	
+}
+
+
+@media only screen and (max-width: 500px) {
+	.scroll-banner .carousel-caption{
+		height: 50px;
+		padding: 10px;
+		font-size: 18px;
+	}
+	.scroll-banner .carousel-caption a, .scroll-banner .carousel-caption a:hover, .scroll-banner .carousel-caption a:active{
+		font-size: 12px;
+	}
+	.scroll-banner .carousel-indicators li{
+		height: 32px;
+		line-height: 32px;
+	}
+	.scroll-banner .carousel-indicators li span{
+		font-size: 16px;
+	}
+	.main-container{
+		margin-top: 5px;
+	}
+	.main-container .item-header{
+		height: 40px;
+		line-height: 40px;
+		font-size: 18px;
+	}
+	.designPlan-tit,.usefull-tit{
+		border-width: 1px;
+	}
+	.main-container .item-con{
+		padding-left: 45px;
+	}
+	.main-container .item-con .col-tit{
+		width: 38px;
+	}
+	.main-container .item-con .col-tit h2{
+		font-size: 16px;
+		line-height: 1.5em;
+	}
+	ul.con-list{
+		line-height: 36px;
+	}
+	ul.con-list li{
+		font-size: 12px;
+		padding:0 0 0 10px;
+	}
+	.p-tips{
+		height: 130px;
+		font-size: 24px;
+		line-height: 130px;
+	}
 }

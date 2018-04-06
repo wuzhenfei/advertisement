@@ -64,16 +64,11 @@
 }
 .icon-contents .row .col-xs-6{
 	height: 33.333333%;
-	padding:20px;
 }
 .icon-contents .icon-item{
 	width: 100%;
 	height: 100%;
-	border:1px solid #fff;
-	background: rgba(19,19,19,0.5);
 	margin-bottom: 15px;
-	display: table;
-	text-align: center;
 }
 .icon-contents .icon-item .img-box{
 	display: table-cell;
@@ -82,7 +77,14 @@
 }
 .icon-contents .icon-item .img-box img{
 	display: inline-block;
+	width: 100%;
+	height: auto;
 }
 .icon-contents+.btns a.btn{
 	padding:20px 0;
+}
+@media only screen and (max-width: 500px) {
+	.btns a.btn{
+		font-size: 16px;
+	}
 }
