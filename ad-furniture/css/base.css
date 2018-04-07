@@ -141,4 +141,5 @@ input,button,textarea,select{*font-size:100%;}
 .pr50{padding-right:50px;}
 .pr100{padding-right:100px;}
 
-.container-fluid{max-width: 720px;padding-bottom: 45px;min-width: 320px;}
+html,body{height: 100%;}
+.container-fluid{max-width: 720px;padding-bottom: 45px;min-width: 320px;height: 100%;}
