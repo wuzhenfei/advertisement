@@ -142,4 +142,4 @@ input,button,textarea,select{*font-size:100%;}
 .pr100{padding-right:100px;}
 
 html,body{height: 100%;}
-.container-fluid{max-width: 720px;padding-bottom: 30px;min-width: 320px;height: 100%;overflow: scroll;}
+.container-fluid{max-width: 720px;padding-bottom: 30px;min-width: 320px;height: 100%;overflow: auto;-webkit-overflow-scrolling: touch; /* ios5+ */}
