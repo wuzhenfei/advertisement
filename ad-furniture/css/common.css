@@ -1,9 +1,12 @@
 /*头部*/
 header{
-	height: 70px;
+	height: 60px;
 	background: #282828;
 	margin:0 -15px;
-	padding:15px 10px;
+	padding:0px 5px
+}
+header img{
+	width: 100px;
 }
 /*预约量房与方案设计*/
 .form-item{
