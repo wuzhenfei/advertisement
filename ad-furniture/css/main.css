@@ -103,6 +103,13 @@
 .icon-contents+.btns a.btn{
 	padding:20px 0;
 }
+/*图片轮播滚动*/
+.item .carousel-indicators{
+	width: auto;
+	left:initial;
+	right:20px;
+	margin-left: initial;
+}
 @media only screen and (max-width: 500px) {
 	.btns a.btn{
 		font-size: 16px;
