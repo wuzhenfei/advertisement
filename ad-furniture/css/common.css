@@ -51,6 +51,9 @@ footer{
 	bottom:0;
 	width: 100%;;
 }
+footer.fixed{
+	position: initial;
+}
 footer .col-xs-4 span{
 	background: #000000;
 	color: #fff;
