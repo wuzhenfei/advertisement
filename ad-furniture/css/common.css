@@ -1,3 +1,10 @@
+/*头部*/
+header{
+	height: 70px;
+	background: #282828;
+	margin:0 -15px;
+	padding:15px 10px;
+}
 /*预约量房与方案设计*/
 .form-item{
 	padding:35px;
@@ -27,14 +34,14 @@
 	height: 50px;
 	line-height: 50px;
 	padding:0;
-	background: #4bb1a6;
+	background-color: rgba(16, 115, 146, 0.77);
 	color: #fff;
 	font-size: 20px;
 }
 
 /* 底部 */
 footer{
-	background: #625e5e;
+	background: rgba(98,94,94,0.77);
 	margin:0 -15px;
 	padding: 10px 0;
 	font-size: 14px;

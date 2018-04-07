@@ -37,7 +37,7 @@
 }
 .btn-transparent:hover{
 	border: 1px solid #fff;
-	background-color: rgba(7, 52, 243, 0.5);
+	background-color: rgba(16, 115, 146, 0.77);
 	transition: background-color 300ms linear,border 300ms linear;
 }
 .text-content{
@@ -49,6 +49,12 @@
 }
 .text-content .btn-transparent{
 	background: #3e3e3e;
+	border: none;
+}
+.text-content .btn-transparent:hover,.text-content .btn-transparent:focus{
+	border:none;
+	background-color: rgba(16, 115, 146, 0.77)!important;
+	transition: background-color 300ms linear,border 300ms linear;
 }
 .icon-contents{
 	position: absolute;

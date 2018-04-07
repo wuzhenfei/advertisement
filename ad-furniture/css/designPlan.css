@@ -1,12 +1,10 @@
 /* banner滚动 */
-.scroll-banner .carousel-indicators{
-	position: initial;
-	width: 100%;
-	margin:10px auto;
-	display: flex;
-	padding:0 15px;
+.scroll-banner{
+	position: relative;
 }
-.scroll-banner .carousel-caption{
+.scroll-banner .banner-text{
+	position: absolute;
+	z-index: 10000;
 	bottom:initial;
 	top:0;
 	left:0;
@@ -19,14 +17,25 @@
 	text-align: left;
 	font-size: 20px;
 }
-.scroll-banner .carousel-caption a,.scroll-banner .carousel-caption a:hover,.scroll-banner .carousel-caption a:active{
+.scroll-banner .carousel-indicators{
+	display: none;
+}
+.scroll-banner .banner-text a,.scroll-banner .banner-text a:hover,.scroll-banner .banner-text a:active{
 	padding:0 15px;
 	background: #000;
 	color: #fff;
 	font-size: 14px;
 	text-decoration: none;
 }
-.scroll-banner .carousel-indicators li{
+.scroll-banner .nav-tabs{
+	position: initial;
+	width: 100%;
+	margin:10px auto;
+	display: flex;
+	padding:0 15px;
+	border-bottom: none;
+}
+.scroll-banner .nav-tabs li{
 	background: none;
 	width: 33.33333%;
 	height: 45px;
@@ -37,14 +46,17 @@
 	border-radius: 0;
 	cursor: pointer;
 }
-.scroll-banner .carousel-indicators li span{
+.scroll-banner .nav-tabs li a{
 	border:1px solid #f7f7f7;
 	background: #f7f7f7;
 	display: block;
 	color: #a3a3a3;
 	font-size: 18px;
+	border-radius: 0;
+	padding:0;
+	line-height:2em;
 }
-.scroll-banner .carousel-indicators li.active span{
+.scroll-banner .nav-tabs li.active a{
 	border:1px solid #ababab;
 	color: #8a8a8a;
 	transition: background-color 300ms linear,border 300ms linear;
@@ -142,19 +154,19 @@ ul.con-list li{
 
 
 @media only screen and (max-width: 500px) {
-	.scroll-banner .carousel-caption{
+	.scroll-banner .banner-text{
 		height: 50px;
 		padding: 10px;
 		font-size: 18px;
 	}
-	.scroll-banner .carousel-caption a, .scroll-banner .carousel-caption a:hover, .scroll-banner .carousel-caption a:active{
+	.scroll-banner .banner-text a, .scroll-banner .banner-text a:hover, .scroll-banner .banner-text a:active{
 		font-size: 12px;
 	}
-	.scroll-banner .carousel-indicators li{
+	.scroll-banner .nav-tabs li{
 		height: 32px;
 		line-height: 32px;
 	}
-	.scroll-banner .carousel-indicators li span{
+	.scroll-banner .nav-tabs li a{
 		font-size: 16px;
 	}
 	.main-container{
