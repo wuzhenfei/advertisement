@@ -30,16 +30,13 @@
 .scroll-banner .nav-tabs{
 	position: initial;
 	width: 100%;
-	margin:10px auto;
+	margin:0 auto 10px;
 	display: flex;
-	padding:0 15px;
 	border-bottom: none;
 }
 .scroll-banner .nav-tabs li{
 	background: none;
 	width: 33.33333%;
-	height: 45px;
-	line-height: 45px;
 	text-align: center;
 	text-indent: initial;
 	flex:1;
@@ -51,15 +48,17 @@
 	background: #f7f7f7;
 	display: block;
 	color: #a3a3a3;
-	font-size: 18px;
+	font-size: 12px;
 	border-radius: 0;
 	padding:0;
 	line-height:2em;
+	margin:0;
 }
 .scroll-banner .nav-tabs li.active a{
-	border:1px solid #ababab;
+	border:1px solid #dedede;
 	color: #8a8a8a;
 	transition: background-color 300ms linear,border 300ms linear;
+	background-color: #f7f7f7;
 }
 
 .main-container {
@@ -161,13 +160,6 @@ ul.con-list li{
 	}
 	.scroll-banner .banner-text a, .scroll-banner .banner-text a:hover, .scroll-banner .banner-text a:active{
 		font-size: 12px;
-	}
-	.scroll-banner .nav-tabs li{
-		height: 32px;
-		line-height: 32px;
-	}
-	.scroll-banner .nav-tabs li a{
-		font-size: 16px;
 	}
 	.main-container{
 		margin-top: 5px;

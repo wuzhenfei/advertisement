@@ -3,10 +3,16 @@ header{
 	height: 45px;
 	background: #282828;
 	margin:0 -15px;
-	padding:0px 5px
+	padding:0px 5px;
+	line-height: 45px;
+}
+header a{
+	color: #fff;
+	padding-right: 5px;
 }
 header img{
 	width: 85px;
+	margin-top:-7px;
 }
 /*预约量房与方案设计*/
 .form-item{
