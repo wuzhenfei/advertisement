@@ -92,27 +92,29 @@ footer .ft-border{
 	z-index: 1000;
 }
 .pop-content .pop-main h2{
-	font-size: 32px;
+	font-size: 30px;
 	line-height: 4em;
-	background: url(../img/pop-success.png) no-repeat 30px center;
-	padding-left:30px;
+	background: url(../img/pop-success.png) no-repeat 40px center;
+	padding-left:20px;
+	background-size: 25px;
 }
 .pop-content .pop-main p{
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 24px;
 }
 .pop-content .pop-main p span{
-	font-size: 24px;
+	font-size: 22px;
 }
 .pop-content a.pop-phone{
 	display: block;
 	padding:10px;
 	text-align: center;
 	color: #fff;
-	font-size: 20px;
+	font-size: 18px;
 	margin:10px 0;
 	padding-left:45px;
-	background: #107392 url(../img/pop-phone.png) no-repeat 35px center;
+	background: #107392 url(../img/pop-phone.png) no-repeat 50px center;
+	background-size: 25px;
 }
 @media only screen and (max-width: 500px) {
 	.form-item{
