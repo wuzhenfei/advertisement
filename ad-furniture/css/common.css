@@ -71,6 +71,49 @@ footer .ft-border{
 	border-right:1px solid #fff;
 }
 
+/*模态弹框样式*/
+.pop-order{
+	padding:65px 20px;
+}
+.pop-content .pop-main{
+	border:1px solid #b1b1b1;
+	padding:20px;
+	text-align: center;
+	color: #373535;
+	position: relative;
+}
+.pop-content .pop-main .pop-logo{
+	display: block;
+	width: 100px;
+	position: absolute;
+	left:50%;
+	top:-35px;
+	margin-left:-50px;
+	z-index: 1000;
+}
+.pop-content .pop-main h2{
+	font-size: 32px;
+	line-height: 4em;
+	background: url(../img/pop-success.png) no-repeat 30px center;
+	padding-left:30px;
+}
+.pop-content .pop-main p{
+	font-size: 16px;
+	line-height: 24px;
+}
+.pop-content .pop-main p span{
+	font-size: 24px;
+}
+.pop-content a.pop-phone{
+	display: block;
+	padding:10px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin:10px 0;
+	padding-left:45px;
+	background: #107392 url(../img/pop-phone.png) no-repeat 35px center;
+}
 @media only screen and (max-width: 500px) {
 	.form-item{
 		padding:25px 35px;

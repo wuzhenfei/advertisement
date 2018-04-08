@@ -41,9 +41,6 @@
 					</div>
 				</div>
 				<div class="col-xs-12 p0 item">
-					<!--<picture class="select-img">
-						<img src="img/banner-2.jpg"/>
-					</picture>-->
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 						<!-- 图片轮播 -->
 						<div class="carousel-inner" role="listbox">
@@ -142,7 +139,7 @@
 								<label for="area">场地面积</label>
 								<input type="text" class="form-control" id="area" placeholder="">
 							</div>
-							<button type="submit" class="btn btn-block">立即预约</button>
+							<a class="btn btn-block" data-toggle="modal" href="popOrder.html" data-target="#modal">立即预约</a>
 						</form>
 					</div>
 				</div>
@@ -161,6 +158,12 @@
 				</div>
 			</div>
 		</footer>
+		<!-- 预约成功后模态弹框 -->
+		<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content"></div>
+			</div>
+		</div>
 	</body>
 	<script type="text/javascript">
 		$(function(){
