@@ -94,7 +94,7 @@ footer .ft-border{
 .pop-content .pop-main h2{
 	font-size: 30px;
 	line-height: 4em;
-	background: url(../img/pop-success.png) no-repeat 40px center;
+	background: url(../img/pop-success.png) no-repeat 25px center;
 	padding-left:20px;
 	background-size: 25px;
 }
@@ -113,8 +113,8 @@ footer .ft-border{
 	font-size: 18px;
 	margin:10px 0;
 	padding-left:45px;
-	background: #107392 url(../img/pop-phone.png) no-repeat 50px center;
-	background-size: 25px;
+	background: #107392 url(../img/pop-phone.png) no-repeat 40px center;
+	background-size: 18px;
 }
 @media only screen and (max-width: 500px) {
 	.form-item{

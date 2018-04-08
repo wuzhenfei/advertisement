@@ -7,7 +7,7 @@
 }
 .item .btns{
 	padding:0 20px;
-	bottom:45px;
+	bottom:30px;
 	left:0;
 	width: 100%;
 }
@@ -34,7 +34,7 @@
 .select-img img{
 	width: 100%;
 	display: block;
-	margin-top:-25px;
+	margin-top:-10px;
 }
 .item3 .select-img img{
 	margin-top:0;
@@ -131,13 +131,13 @@
 		max-height: 100%;
 	}
 	.item .btns{
-		bottom:50px;
+		bottom:30px;
 	}
 	.item3 .btns{
 		bottom:25px;
 	}
 	.select-img img{
-		margin-top:-50px;
+		margin-top:-10px;
 	}
 	.item3 .select-img img{
 		margin-top:0;
