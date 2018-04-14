@@ -17,9 +17,6 @@
 	text-align: left;
 	font-size: 20px;
 }
-.scroll-banner .carousel-indicators{
-	display: none;
-}
 .scroll-banner .banner-text a,.scroll-banner .banner-text a:hover,.scroll-banner .banner-text a:active{
 	padding:0 15px;
 	background: #000;
@@ -27,23 +24,26 @@
 	font-size: 14px;
 	text-decoration: none;
 }
-.scroll-banner .nav-tabs{
+.scroll-banner .carousel-indicators{
 	position: initial;
 	width: 100%;
 	margin:0 auto 10px;
 	display: flex;
 	border-bottom: none;
 }
-.scroll-banner .nav-tabs li{
+.scroll-banner .carousel-indicators li{
 	background: none;
 	width: 33.33333%;
 	text-align: center;
 	text-indent: initial;
+	height: auto;
+	border:none;
+	background: none;
 	flex:1;
 	border-radius: 0;
 	cursor: pointer;
 }
-.scroll-banner .nav-tabs li a{
+.scroll-banner .carousel-indicators li span{
 	border:1px solid #f7f7f7;
 	background: #f7f7f7;
 	display: block;
@@ -54,13 +54,15 @@
 	line-height:2em;
 	margin:0;
 }
-.scroll-banner .nav-tabs li.active a{
+.scroll-banner .carousel-indicators li.active span{
 	border:1px solid #dedede;
 	color: #8a8a8a;
 	transition: background-color 300ms linear,border 300ms linear;
 	background-color: #f7f7f7;
 }
-
+.scroll-banner .carousel-control.left,.scroll-banner .carousel-control.right{
+	background: none;
+}
 .main-container {
 	margin-top: 15px;
 }
