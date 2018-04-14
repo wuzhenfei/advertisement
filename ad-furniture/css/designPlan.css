@@ -100,8 +100,8 @@
 }
 .main-container .item-con .col-tit h2{
 	font-size: 18px;
-	background: #000;
-	color: #fff;
+	background: #cacaca;
+	color: #3b3b3b;
 	padding:10px;
 	display: flex;
 	width: 100%;
@@ -116,15 +116,15 @@
 	text-align: center;
 }
 .designPlan-tit{
-	border:2px solid #cc3300;
-	color: #cc3300;
+	border:2px solid #815b3b;
+	color: #815b3b;
 	background: #fff;
 	width: 100%;
 }
 .usefull-tit{
-	border:2px solid #cc3300;
+	border:2px solid #815b3b;
 	color: #fff;
-	background: #cc3300;
+	background: #815b3b;
 	width: 100%;
 }
 ul.con-list{
